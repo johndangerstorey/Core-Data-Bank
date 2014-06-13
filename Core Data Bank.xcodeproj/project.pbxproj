@@ -19,6 +19,15 @@
 		715810D31949FD71006ECE83 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 715810BB1949FD71006ECE83 /* UIKit.framework */; };
 		715810DB1949FD71006ECE83 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 715810D91949FD71006ECE83 /* InfoPlist.strings */; };
 		715810DD1949FD71006ECE83 /* Core_Data_BankTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 715810DC1949FD71006ECE83 /* Core_Data_BankTests.m */; };
+		F5DAC5C7194A817300CBE038 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5DAC5C6194A817300CBE038 /* CoreData.framework */; };
+		F5DAC5CA194A81A900CBE038 /* CoreDataBank.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F5DAC5C8194A81A900CBE038 /* CoreDataBank.xcdatamodeld */; };
+		F5DAC5D0194A882200CBE038 /* DBStack.m in Sources */ = {isa = PBXBuildFile; fileRef = F5DAC5CF194A882200CBE038 /* DBStack.m */; };
+		F5DAC5D3194A8F1F00CBE038 /* DBMemberController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5DAC5D2194A8F1F00CBE038 /* DBMemberController.m */; };
+		F5DAC5D6194A933300CBE038 /* Member.m in Sources */ = {isa = PBXBuildFile; fileRef = F5DAC5D5194A933300CBE038 /* Member.m */; };
+		F5DAC5D9194A96A500CBE038 /* DBMemberViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5DAC5D8194A96A500CBE038 /* DBMemberViewController.m */; };
+		F5DAC5DC194A979200CBE038 /* DBMemberTableViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = F5DAC5DB194A979200CBE038 /* DBMemberTableViewDataSource.m */; };
+		F5DAC5E0194A9D5100CBE038 /* DBAddMemberViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5DAC5DE194A9D5100CBE038 /* DBAddMemberViewController.m */; };
+		F5DAC5E1194A9D5100CBE038 /* DBAddMemberViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5DAC5DF194A9D5100CBE038 /* DBAddMemberViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +57,21 @@
 		715810D81949FD71006ECE83 /* Core Data BankTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Core Data BankTests-Info.plist"; sourceTree = "<group>"; };
 		715810DA1949FD71006ECE83 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		715810DC1949FD71006ECE83 /* Core_Data_BankTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Core_Data_BankTests.m; sourceTree = "<group>"; };
+		F5DAC5C6194A817300CBE038 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		F5DAC5C9194A81A900CBE038 /* CoreDataBank.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataBank.xcdatamodel; sourceTree = "<group>"; };
+		F5DAC5CE194A882200CBE038 /* DBStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBStack.h; sourceTree = "<group>"; };
+		F5DAC5CF194A882200CBE038 /* DBStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBStack.m; sourceTree = "<group>"; };
+		F5DAC5D1194A8F1F00CBE038 /* DBMemberController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBMemberController.h; sourceTree = "<group>"; };
+		F5DAC5D2194A8F1F00CBE038 /* DBMemberController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBMemberController.m; sourceTree = "<group>"; };
+		F5DAC5D4194A933300CBE038 /* Member.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Member.h; sourceTree = "<group>"; };
+		F5DAC5D5194A933300CBE038 /* Member.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Member.m; sourceTree = "<group>"; };
+		F5DAC5D7194A96A500CBE038 /* DBMemberViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBMemberViewController.h; sourceTree = "<group>"; };
+		F5DAC5D8194A96A500CBE038 /* DBMemberViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBMemberViewController.m; sourceTree = "<group>"; };
+		F5DAC5DA194A979200CBE038 /* DBMemberTableViewDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBMemberTableViewDataSource.h; sourceTree = "<group>"; };
+		F5DAC5DB194A979200CBE038 /* DBMemberTableViewDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBMemberTableViewDataSource.m; sourceTree = "<group>"; };
+		F5DAC5DD194A9D5100CBE038 /* DBAddMemberViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBAddMemberViewController.h; sourceTree = "<group>"; };
+		F5DAC5DE194A9D5100CBE038 /* DBAddMemberViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBAddMemberViewController.m; sourceTree = "<group>"; };
+		F5DAC5DF194A9D5100CBE038 /* DBAddMemberViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DBAddMemberViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5DAC5C7194A817300CBE038 /* CoreData.framework in Frameworks */,
 				715810BA1949FD71006ECE83 /* CoreGraphics.framework in Frameworks */,
 				715810BC1949FD71006ECE83 /* UIKit.framework in Frameworks */,
 				715810B81949FD71006ECE83 /* Foundation.framework in Frameworks */,
@@ -96,6 +121,7 @@
 		715810B61949FD71006ECE83 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F5DAC5C6194A817300CBE038 /* CoreData.framework */,
 				715810B71949FD71006ECE83 /* Foundation.framework */,
 				715810B91949FD71006ECE83 /* CoreGraphics.framework */,
 				715810BB1949FD71006ECE83 /* UIKit.framework */,
@@ -107,8 +133,21 @@
 		715810BD1949FD71006ECE83 /* Core Data Bank */ = {
 			isa = PBXGroup;
 			children = (
+				F5DAC5CE194A882200CBE038 /* DBStack.h */,
+				F5DAC5CF194A882200CBE038 /* DBStack.m */,
+				F5DAC5D4194A933300CBE038 /* Member.h */,
+				F5DAC5D5194A933300CBE038 /* Member.m */,
+				F5DAC5D1194A8F1F00CBE038 /* DBMemberController.h */,
+				F5DAC5D2194A8F1F00CBE038 /* DBMemberController.m */,
 				715810C61949FD71006ECE83 /* DBAppDelegate.h */,
 				715810C71949FD71006ECE83 /* DBAppDelegate.m */,
+				F5DAC5D7194A96A500CBE038 /* DBMemberViewController.h */,
+				F5DAC5D8194A96A500CBE038 /* DBMemberViewController.m */,
+				F5DAC5DA194A979200CBE038 /* DBMemberTableViewDataSource.h */,
+				F5DAC5DB194A979200CBE038 /* DBMemberTableViewDataSource.m */,
+				F5DAC5DD194A9D5100CBE038 /* DBAddMemberViewController.h */,
+				F5DAC5DE194A9D5100CBE038 /* DBAddMemberViewController.m */,
+				F5DAC5DF194A9D5100CBE038 /* DBAddMemberViewController.xib */,
 				715810C91949FD71006ECE83 /* Images.xcassets */,
 				715810BE1949FD71006ECE83 /* Supporting Files */,
 			);
@@ -122,6 +161,7 @@
 				715810C01949FD71006ECE83 /* InfoPlist.strings */,
 				715810C31949FD71006ECE83 /* main.m */,
 				715810C51949FD71006ECE83 /* Core Data Bank-Prefix.pch */,
+				F5DAC5C8194A81A900CBE038 /* CoreDataBank.xcdatamodeld */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -221,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				715810C21949FD71006ECE83 /* InfoPlist.strings in Resources */,
+				F5DAC5E1194A9D5100CBE038 /* DBAddMemberViewController.xib in Resources */,
 				715810CA1949FD71006ECE83 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -240,7 +281,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5DAC5D9194A96A500CBE038 /* DBMemberViewController.m in Sources */,
+				F5DAC5E0194A9D5100CBE038 /* DBAddMemberViewController.m in Sources */,
 				715810C81949FD71006ECE83 /* DBAppDelegate.m in Sources */,
+				F5DAC5D6194A933300CBE038 /* Member.m in Sources */,
+				F5DAC5CA194A81A900CBE038 /* CoreDataBank.xcdatamodeld in Sources */,
+				F5DAC5DC194A979200CBE038 /* DBMemberTableViewDataSource.m in Sources */,
+				F5DAC5D0194A882200CBE038 /* DBStack.m in Sources */,
+				F5DAC5D3194A8F1F00CBE038 /* DBMemberController.m in Sources */,
 				715810C41949FD71006ECE83 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -438,6 +486,7 @@
 				715810E21949FD71006ECE83 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		715810E31949FD71006ECE83 /* Build configuration list for PBXNativeTarget "Core Data BankTests" */ = {
 			isa = XCConfigurationList;
@@ -446,8 +495,22 @@
 				715810E51949FD71006ECE83 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F5DAC5C8194A81A900CBE038 /* CoreDataBank.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F5DAC5C9194A81A900CBE038 /* CoreDataBank.xcdatamodel */,
+			);
+			currentVersion = F5DAC5C9194A81A900CBE038 /* CoreDataBank.xcdatamodel */;
+			path = CoreDataBank.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 715810AC1949FD71006ECE83 /* Project object */;
 }

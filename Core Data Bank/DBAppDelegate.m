@@ -7,13 +7,18 @@
 //
 
 #import "DBAppDelegate.h"
+#import "DBMemberViewController.h"
 
 @implementation DBAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.stack = [DBStack new];
     // Override point for customization after application launch.
+    DBMemberViewController *viewController = [DBMemberViewController new];
+    UINavigationController *navigationController = [[UINavigationController alloc]initWithRootViewController:viewController];
+    self.window.rootViewController = navigationController;
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;

@@ -7,9 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "DBStack.h"
 
 @interface DBAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
+@property (strong,nonatomic) DBStack *stack;
 
 @end
